@@ -21,7 +21,7 @@ public class Conexion {
 		 final String DB_URL = "jdbc:mysql://localhost:3306/supermercado";
 		 //Credenciales de la BDD
 		 final String USER = "root";
-		 final String PASS = "Concatenacionx100.-.";
+		 final String PASS = "";
 
 	
 		 
