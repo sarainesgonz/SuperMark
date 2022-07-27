@@ -115,7 +115,7 @@ public static void modificarProducto(int id_producto, String nombre, int stock, 
 				String DB_URL = "jdbc:mysql://localhost:3306/supermercado";
 			 // Credenciales de la database
 				String USER = "root";
-				String PASS = "Concatenacionx100.-.";
+				String PASS = "";
 				
 				 Connection conn = null;
 				 Statement stmt = null;
@@ -169,7 +169,7 @@ public static void agregarProducto(int id_producto, String nombre, int stock, in
 			String DB_URL = "jdbc:mysql://localhost:3306/supermercado";
 		 // Credenciales de la database
 			String USER = "root";
-			String PASS = "Concatenacionx100.-.";
+			String PASS = "";
 			
 			 Connection conn = null;
 			 Statement stmt = null;
@@ -223,7 +223,7 @@ public static void eliminarProducto(int id_producto) throws SQLException{
 	String DB_URL = "jdbc:mysql://localhost:3306/supermercado";
  // Credenciales de la database
 	String USER = "root";
-	String PASS = "Concatenacionx100.-.";
+	String PASS = "";
 	
 	 Connection conn = null;
 	 Statement stmt = null;
